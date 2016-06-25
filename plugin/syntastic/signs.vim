@@ -72,9 +72,9 @@ function! g:SyntasticSignsNotifier._setup() abort " {{{2
 
         " define the signs used to display syntax and style errors/warns
         execute 'sign define SyntasticError text=' . g:syntastic_error_symbol .
-            \ ' texthl=SyntasticErrorSign linehl=SyntasticErrorLine'
+            \ ' texthl=SignError linehl=SyntasticErrorLine'
         execute 'sign define SyntasticWarning text=' . g:syntastic_warning_symbol .
-            \ ' texthl=SyntasticWarningSign linehl=SyntasticWarningLine'
+            \ ' texthl=SignWarning linehl=SyntasticWarningLine'
         execute 'sign define SyntasticStyleError text=' . g:syntastic_style_error_symbol .
             \ ' texthl=SyntasticStyleErrorSign linehl=SyntasticStyleErrorLine'
         execute 'sign define SyntasticStyleWarning text=' . g:syntastic_style_warning_symbol .
