@@ -16,6 +16,8 @@
                                       |                                               /
                                        \_____________________________________________/
 
+# My Changes
+- set warnings and errors to [use the colors I specified](https://github.com/bigolu/syntastic/commit/a5a801f026190a91a23e0c996fa225a69968c308) in my [vim=colors-solarized](https://github.com/bigolu/vim-colors-solarized/blob/143d226b7b09296a8dd0015b01965fe1f18c6ce9/colors/solarized.vim#L709)
 
 - - -
 1. [Introduction](#introduction)  
